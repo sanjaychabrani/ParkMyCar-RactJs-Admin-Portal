@@ -1,0 +1,148 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.my-con{
+  height: 100% !important;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #6138a0;
+  color: #fff;
+}
+
+nav {
+  flex: 0 0 200px;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 10px;
+}
+
+nav button {
+  display: block;
+  padding: 22px;
+  color: #007bff;
+  background-color: #f2f2f2;
+  border: none;
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #101315;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+}
+
+.vehicle-icon {
+  font-size: 64px;
+  color: #d12efe;
+  margin: 10px;
+  background: transparent;
+}
+
+.vehicle-count .vehicle-icon,
+.vehicle-out .vehicle-icon,
+.vehicle-total .car-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./car.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.vehicle-count .vehicle-icon:before,
+.vehicle-out .vehicle-icon:before,
+.vehicle-total .car-element:before {
+  font-family: FontAwesome;
+}
+
+.vehicle-count .vehicle-icon:before {
+  content: "\f0b1";
+}
+
+.vehicle-out .vehicle-icon:before {
+  content: "\f1b9";
+}
+
+.vehicle-total .car-element:before {
+  content: "\f1b9";
+}
+
+.vehicle-count .count-label {
+  color: #007bff;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 30px 10px 10px 10px;
+}
+
+.vehicle-out .count-label {
+  color: #dc3545;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 30px 10px 10px 10px;
+}
+
+.vehicle-total .count-label {
+  color: #28a745;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 30px 10px 10px 10px;
+}
+
+.count-label {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.count-value {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  
+}

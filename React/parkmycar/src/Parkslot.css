@@ -1,0 +1,70 @@
+.parking-slot {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: 40px;
+}
+
+
+
+h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+thead {
+  background-color: #007bff;
+  color: #fff;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  font-size: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+td {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    padding: 5px;
+  }
+
+  th {
+    font-size: 18px;
+  }
+
+  td {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+}

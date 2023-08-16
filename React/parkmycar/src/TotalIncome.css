@@ -1,0 +1,41 @@
+body {
+  overflow: hidden;
+}
+.chart-and-table-container {
+  display: flex;
+  align-items: center;
+}
+
+.total-income {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.total-income h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.chart-container{
+  margin-top: 0rem;
+  flex: 1 0 20rem;
+  max-width: 35%;
+}
+
+table {
+  width: 80%;
+  margin-left: 50px;
+}
+
+th, td {
+  border: 1px solid rgb(5, 5, 5);
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #0d0d0d;
+}
